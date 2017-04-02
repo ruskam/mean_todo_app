@@ -23,8 +23,8 @@ app.use('/api', api);
 
 // catch all other routes and return the index file
 app.get('*', (req, res) => {
-    //res.sendfile(path.join(__dirname, dist/index.html));
-    res.sendfile(path.join(__dirname, index.html));
+    res.sendfile(path.join(__dirname, dist/index.html));
+    //res.sendfile(path.join(__dirname, index.html));
 });
 
 // set a port
