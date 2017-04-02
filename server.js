@@ -33,7 +33,9 @@ app.set('port', port);
 
 // create HTTP server
 const server = http.createServer(app);
-
+server.listen(process.env.PORT || 3000);
+/*
 server.listen(port, () => {
     console.log(`familytasks app runnig on localhost:${port}`);
 });
+*/
