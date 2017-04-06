@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
 var mongojs = require('mongojs');
-var db = mongojs('mongodb://rustam:rustam@ds141950.mlab.com:41950/mytasklist_thewebdeveloper', ['tasks']);
+var db = mongojs('mongodb://<user>:<password>@ds141950.mlab.com:41950/mytasklist_thewebdeveloper', ['tasks']);
 
 // testing api
 router.get('/', (req, res, next) => {
