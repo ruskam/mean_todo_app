@@ -1,6 +1,6 @@
 # THE REPOSITORY IS IN THE DEVELOPMENT
 
-available at `http://lublin.herokuapp.com`
+available at http://lublin.herokuapp.com.
 
 # Familytasks
 
